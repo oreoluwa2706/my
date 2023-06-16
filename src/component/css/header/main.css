@@ -1,0 +1,112 @@
+button {
+  border-color: white;
+  color: white;
+  height: 4em;
+  font-size: 3em;
+  font-weight: bold;
+  width: 15em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 5px;
+  margin-left: 1em;
+  max-width: 800px;
+  box-shadow: 5px 5px 5px 5px white;
+}
+.button-flex {
+  display: flex;
+  margin-top: 7em;
+}
+span {
+  color: white;
+}
+.me {
+  margin-right: 0vw;
+  margin-left: 20vw;
+  width: 30vw;
+  height: 50vh;
+  opacity: 15%;
+  transition: 0.5s all ease-in-out;
+}
+.me:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+  border-radius: 15px;
+  margin-right: 20px;
+  transform: scale(1.5) rotate(10deg);
+}
+
+p {
+  color: white;
+  font-size: 2em;
+  margin-left: 3vw;
+}
+.animate {
+  font-size: 32px;
+  font-weight: 500;
+  min-width: 270px;
+}
+.animate span {
+  position: relative;
+}
+.animate span::before {
+  content: "Frontend Engineer";
+  color: red;
+  animation: words 20s infinite;
+}
+.animate span::after {
+  content: "";
+  background-color: #ccd1db;
+  position: absolute;
+  width: calc(100% + 8px);
+  border-left: 2px solid red;
+  right: -8px;
+  height: 100%;
+  animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+@keyframes cursor {
+  to {
+    border-left: 2px solid #2f3542;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "Frontend Engineer";
+  }
+  21%,
+  40% {
+    content: "Backend Engineer";
+  }
+  41%,
+  60% {
+    content: "DevOps Engineer";
+  }
+  61%,
+  80% {
+    content: "Web Developer";
+  }
+}
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}

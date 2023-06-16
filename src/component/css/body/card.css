@@ -1,0 +1,42 @@
+.card {
+  width: 30vw;
+  margin-left: 3em;
+  margin-top: 2em;
+  border: 7px solid white;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  max-height: 550px;
+  box-shadow: 5px 5px rgb(184, 121, 121);
+}
+.card:hover {
+  transform: rotate(5deg);
+}
+.card-img-top {
+  width: 30vw;
+  height: 15vh;
+}
+.btn {
+  position: relative;
+  left: 10%;
+  font-weight: bolder;
+  letter-spacing: 0.4em;
+  color: rgb(248, 7, 152);
+  font-size: 2vw;
+  border: 5px solid white;
+  margin-top: 2px;
+  padding-bottom: 2px;
+  bottom: 2vh;
+}
+.card-title {
+  color: rgb(248, 7, 152);
+  font-size: 2em;
+  margin-left: 10%;
+  margin-top: 0;
+}
+.card-text {
+  padding-bottom: 10%;
+  margin-top: -12%;
+  font-size: 100%;
+  font-weight: bold;
+}

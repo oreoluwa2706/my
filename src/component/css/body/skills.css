@@ -1,0 +1,25 @@
+.skills {
+  color: white;
+  margin-left: 1.5vw;
+  font-size: 2em;
+}
+.flex4 {
+  display: flex;
+  width: 100vw;
+  margin-left: 4vw;
+  justify-content: space-around;
+}
+img {
+  width: 10vw;
+}
+h3 {
+  margin-top: 0;
+}
+h4 {
+  margin-top: 0;
+  color: rgb(201, 21, 141);
+}
+.skill {
+  border-radius: 50%;
+  margin-left: -3vw;
+}
